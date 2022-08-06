@@ -17,7 +17,6 @@ def pdf_read(pdf_file_path):
     for page in pages:
 
         page_words = []
-
         page_words = page.extract_words()
         
         print(page_words)
